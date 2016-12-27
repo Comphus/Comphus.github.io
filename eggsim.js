@@ -101,10 +101,10 @@ var imgP = [
 		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x20!", 4871440],
 		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x50!", 4871440],
 		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x100!", 4871440]
-  ]
+  ];
 
 
-var imgS = []
+var imgS = [];
 function loadS(){
 for(var i=0; i<imgP.length; i++){
   imgS[i] = new Image();
@@ -120,7 +120,7 @@ function egg(){
   if(imgCount >= 40){
     clearInterval(rInt);
     var r = Math.floor(Math.random() * imgP.length);
-    document.getElementById('res').innerHTML = imgP[r][1]
+    document.getElementById('res').innerHTML = imgP[r][1];
     console.log('hello');
     document.getElementById('myImage').src = imgS[r];
     console.log('bye');
@@ -128,12 +128,12 @@ function egg(){
   }
   if(imgCount==39){
     clearInterval(rInt);
-    rInt = setInterval('egg()', 1500);
+    rInt = setInterval(egg(), 1500);
   }
 }
 function eggify(){
-  loadS()
+  loadS();
   console.log("start");
-  rInt = setInterval('egg()', 80);
+  rInt = setInterval(egg(), 80);
   }
 
