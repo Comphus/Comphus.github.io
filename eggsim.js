@@ -129,7 +129,7 @@ function egg(){
   }
   if(imgCount==39){
     clearInterval(rInt);
-    rInt = setInterval(eval("egg()"), 1500);
+    rInt = setInterval(egg, 1500);
   }
 }
 function eggify(){
@@ -137,7 +137,7 @@ function eggify(){
   checkC=1
   loadS();
   console.log("start");
-  rInt = setInterval(eval("egg()"), 80);
+  rInt = setInterval(egg, 80);
   }
   }
 
