@@ -148,7 +148,6 @@ function egg(){
   }
 }
 function eggify(){
-  console.log("Hi");
   if(checkC===0){
   checkC=1;
   loadS();
