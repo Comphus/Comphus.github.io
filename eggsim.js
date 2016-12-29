@@ -110,6 +110,7 @@ for(var i=0; i<imgP.length; i++){
   imgS[i].src = imgP[i][0];
 }}
 var imgCount = 0;
+var checkC = True;
 
 function egg(){
   imgCount += 1;
@@ -124,6 +125,7 @@ function egg(){
     document.getElementById('myImage').src = imgP[r][0];
     console.log('bye');
     imgCount = 0;
+    checkC = True;
   }
   if(imgCount==39){
     clearInterval(rInt);
@@ -131,8 +133,10 @@ function egg(){
   }
 }
 function eggify(){
+  if(checkC){
   loadS();
   console.log("start");
   rInt = setInterval(eval("egg()"), 80);
+  }
   }
 
