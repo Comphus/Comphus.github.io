@@ -20,6 +20,7 @@ img {
   left: 50%;
   height: 120px;
   width: 120px;
+  border-radius: 31px;
 }
 button {
   position: absolute;
