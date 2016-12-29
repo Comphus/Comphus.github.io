@@ -142,7 +142,7 @@ function egg(){
     imgCount = 0;
     checkC = 0;
   }
-  if(imgCount===39){
+  if(imgCount==39){
     clearInterval(rInt);
     rInt = setInterval(egg, 1500);
   }
@@ -150,7 +150,7 @@ function egg(){
 function eggify(){
   console.log("Hi");
   if(checkC===0){
-  checkC=1
+  checkC=1;
   loadS();
   console.log("start");
   rInt = setInterval(egg, 80);
