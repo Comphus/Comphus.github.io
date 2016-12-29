@@ -3,11 +3,16 @@ body{
 }
 h1 {
   position: absolute;
+  text-align: center;
   top:30%;
   left: 50%;
-  text-align: center;
   color: white;
-  background: #000000;
+  background: #0064ff;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  left: 0;
 }
 img {
   position: absolute;
@@ -28,4 +33,3 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
-
