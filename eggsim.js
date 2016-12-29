@@ -134,7 +134,7 @@ function egg(){
 }
 function eggify(){
   if(checkC==0){
-  checkC=1
+  checkC=1;
   loadS();
   console.log("start");
   rInt = setInterval(egg, 80);
