@@ -111,6 +111,8 @@ for(var i=0; i<imgP.length; i++){
 }}
 var imgCount = 0;
 var checkC = 0;
+var totalS = 0;
+var totalE = 0;
 
 function egg(){
   imgCount += 1;
@@ -135,6 +137,10 @@ function egg(){
 function eggify(){
   console.log("Hi");
   if(checkC===0){
+  totalS += 1500
+  totalE += 1
+  document.getElementById('totals').innerHTML = "Total EC Spent: " + totalS.toString()+ " EC";
+  document.getElementById('tEgg').innerHTML = "Total Eggs: " + totalE.toString();
   checkC=1;
   loadS();
   console.log("start");
