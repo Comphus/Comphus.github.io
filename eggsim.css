@@ -18,7 +18,7 @@ h1 {
 img {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 47%;
   height: 120px;
   width: 120px;
   border-radius: 31px;
@@ -30,7 +30,7 @@ button {
   width:120px;
   height:50px;
   top: 70.35%;
-  left: 50%;
+  left: 47%;
   border: 1px solid #6119A9;
   font-weight: bold;
   cursor: pointer;
