@@ -115,13 +115,13 @@ function egg(){
   imgCount += 1;
   console.log(imgCount);
   var r = Math.floor(Math.random() * imgP.length);
-  document.getElementById('myImage').src = imgS[r];
+  document.getElementById('myImage').src = imgP[r][0];
   if(imgCount >= 40){
     clearInterval(rInt);
     var r = Math.floor(Math.random() * imgP.length);
     document.getElementById('res').innerHTML = imgP[r][1];
     console.log('hello');
-    document.getElementById('myImage').src = imgS[r];
+    document.getElementById('myImage').src = imgP[r][0];
     console.log('bye');
     imgCount = 0;
   }
