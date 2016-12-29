@@ -99,7 +99,22 @@ var imgP = [
 		["stff/warranty.png","You recieved Warranty!", 0],
 		["stff/ally_juice.png","You recieved Ally EXP Juice x20!", 4871440],
 		["stff/ally_juice.png","You recieved Ally EXP Juice x50!", 4871440],
-		["stff/ally_juice.png","You recieved Ally EXP Juice x100!", 4871440]
+		["stff/ally_juice.png","You recieved Ally EXP Juice x100!", 4871440]1],
+		["http://i.imgur.com/Jowu8EX.png","You recieved (Exploration) Lucky Coin Pouch x50!", 5804481],
+		["http://i.imgur.com/Jowu8EX.png","You recieved (Exploration) Lucky Coin Pouch x100!", 5804481],
+		["http://i.imgur.com/6kyf8y7.png","You recieved (Exploration) Mercenary Awakening Potion (Small) Pouch x5!", 5804481],
+		["http://i.imgur.com/hzI0tda.png","You recieved (Exploration) Mercenary Awakening Potion (Medium) Pouch x1!", 13400111],
+		["http://i.imgur.com/hzI0tda.png","You recieved (Exploration) Mercenary Awakening Potion (Medium) Pouch x3!", 13400111],
+		["http://i.imgur.com/hzI0tda.png","You recieved (Exploration) Mercenary Awakening Potion (Medium) Pouch x5!", 13400111],
+		["http://i.imgur.com/tfKUyGE.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x1!", 6363561],
+		["http://i.imgur.com/tfKUyGE.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x3!", 6363561],
+		["http://i.imgur.com/tfKUyGE.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x5!", 6363561],
+		["http://i.imgur.com/KNf2CCz.png","You recieved Costume Hybrid Tablet!", 0],
+		["http://i.imgur.com/rffpKr3.png","You recieved Epic Synthesis Weapon Coupon!", 6363561],
+		["http://i.imgur.com/t8SuLpQ.png","You recieved Warranty!", 0],
+		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x20!", 4871440],
+		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x50!", 4871440],
+		["http://i.imgur.com/jvPlqG5.png","You recieved Ally EXP Juice x100!", 4871440]
   ];
 
 
@@ -133,8 +148,9 @@ function egg(){
   }
 }
 function eggify(){
+  console.log("Hi");
   if(checkC==0){
-  checkC=1;
+  checkC=1
   loadS();
   console.log("start");
   rInt = setInterval(egg, 80);
