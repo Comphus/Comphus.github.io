@@ -119,43 +119,48 @@ function egg(){
   console.log(imgCount);
   var r = Math.floor(Math.random() * imgP.length);
   document.getElementById('myImage').src = imgP[r][0];
-  if(imgCount >= 40){
+  if(imgCount == 40){
+    console.log("wo");
     clearInterval(rInt);
+    console.log("wow");
     var luck = Math.floor(Math.random() * 9998);
-    var rr = Math.floor(Math.random() * imgP.length);
-	 console.log("wow");
+    var rr = 0
     if(luck <= 6812){
+      console.log("wowzers");
     while(true){
+      rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 0 || imgP[rr][2] == 4871440){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
-	break;
+        break;
     }}}
-    if(luck <= 8862){
+    else if(luck <= 8862){
     while(true){
+      rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 5804481){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
-		    break;
+        break;
     }}}
-    if(luck <= 9566){
+    else if(luck <= 9566){
     while(true){
+      rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 13400111){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
-		    break;
-		    
+        break;
     }}}
     else{
     while(true){
+      rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 6363561){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
-	    break;
+        break;
     }}}
 	  console.log("ended");
     imgCount = 0;
