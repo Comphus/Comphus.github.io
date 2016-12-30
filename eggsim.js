@@ -1,59 +1,59 @@
 var imgP = [
   ["stff/godess_lament.png","You recieved Godess's Lament x3!",13400111],
 		["stff/godess_lament.png","You recieved Godess's Lament x5!",13400111],
-		["stff/hp_pot.png","You recieved Quick HP Gain Potion x25!", 0],
-		["stff/hp_pot.png","You recieved Quick HP Gain Potion x50!", 0],
-		["stff/mp_pot.png","You recieved Quick MP Gain Potion x25!", 0],
-		["stff/mp_pot.png","You recieved Quick MP Gain Potion x50!", 0],
-		["stff/heavy_energy_pot.png","You recieved Heavy Energy Potion x10!", 0],
-		["stff/heavy_energy_pot.png","You recieved Heavy Energy Potion x15!", 0],
-		["stff/cure_pot.png","You recieved Cure Potion x10!", 0],
-		["stff/cure_pot.png","You recieved Cure Potion x15!", 0],
-		["stff/attack_pot.png","You recieved Super Attack Potion x10!", 0],
-		["stff/attack_pot.png","You recieved Super Attack Potion x15!", 0],
-		["stff/defense_pot.png","You recieved Super Defense Potion x10!", 0],
-		["stff/defense_pot.png","You recieved Super Defense Potion x15!", 0],
-		["stff/para_pot.png","You recieved Super Paralyze Potion x10!", 0],
-		["stff/para_pot.png","You recieved Super Paralyze Potion x15!", 0],
-		["stff/crit_pot.png","You recieved Super Critical Potion x10!", 0],
-		["stff/crit_pot.png","You recieved Super Critical Potion x15!", 0],
-		["stff/stun_pot.png","You recieved Super Stun Potion x10!", 0],
-		["stff/stun_pot.png","You recieved Super Stun Potion x15!", 0],
-		["stff/speed_pot.png","You recieved Super Speed Potion x10!", 0],
-		["stff/speed_pot.png","You recieved Super Speed Potion x15!", 0],
-		["stff/yellow_bird.png","You recieved Yellow Courier Bird x5!", 0],
-		["stff/yellow_bird.png","You recieved Yellow Courier Bird x10!", 0],
-		["stff/blue_bird.png","You recieved Blue Courier Bird x5!", 0],
-		["stff/blue_bird.png","You recieved Blue Courier Bird x10!", 0],
-		["stff/stamp.png","You recieved Dreamy Approval Stamp x5!", 0],
-		["stff/stamp.png","You recieved Dreamy Approval Stamp x30!", 0],
-		["stff/stamp.png","You recieved Dreamy Approval Stamp x50!", 0],
-		["stff/stamp.png","You recieved Dreamy Approval Stamp x100!", 0],
-		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x5!", 0],
-		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x30!", 0],
-		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x50!", 0],
-		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x100!", 0],
-		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x200!", 0],
-		["stff/mag_glass.png","You recieved Magnifying Glass of Fantasy x5!", 0],
-		["stff/mag_glass.png","You recieved Magnifying Glass of Fantasy x10!", 0],
-		["stff/unlimited_scroll.png","You recieved Scroll of Unlimited Learning!", 0],
-		["stff/enhance_kit.png","You recieved Portable Enhancement Kit!", 0],
-		["stff/craft_kit.png","You recieved Portable Crafting Kit!", 0],
-		["stff/repair_kit.png","You recieved Portable Repair Kit!", 0],
+		["stff/hp_pot.png","You recieved Quick HP Gain Potion x25!", 7829367],
+		["stff/hp_pot.png","You recieved Quick HP Gain Potion x50!", 7829367],
+		["stff/mp_pot.png","You recieved Quick MP Gain Potion x25!", 7829367],
+		["stff/mp_pot.png","You recieved Quick MP Gain Potion x50!", 7829367],
+		["stff/heavy_energy_pot.png","You recieved Heavy Energy Potion x10!", 7829367],
+		["stff/heavy_energy_pot.png","You recieved Heavy Energy Potion x15!", 7829367],
+		["stff/cure_pot.png","You recieved Cure Potion x10!", 7829367],
+		["stff/cure_pot.png","You recieved Cure Potion x15!", 7829367],
+		["stff/attack_pot.png","You recieved Super Attack Potion x10!", 7829367],
+		["stff/attack_pot.png","You recieved Super Attack Potion x15!", 7829367],
+		["stff/defense_pot.png","You recieved Super Defense Potion x10!", 7829367],
+		["stff/defense_pot.png","You recieved Super Defense Potion x15!", 7829367],
+		["stff/para_pot.png","You recieved Super Paralyze Potion x10!", 7829367],
+		["stff/para_pot.png","You recieved Super Paralyze Potion x15!", 7829367],
+		["stff/crit_pot.png","You recieved Super Critical Potion x10!", 7829367],
+		["stff/crit_pot.png","You recieved Super Critical Potion x15!", 7829367],
+		["stff/stun_pot.png","You recieved Super Stun Potion x10!", 7829367],
+		["stff/stun_pot.png","You recieved Super Stun Potion x15!", 7829367],
+		["stff/speed_pot.png","You recieved Super Speed Potion x10!", 7829367],
+		["stff/speed_pot.png","You recieved Super Speed Potion x15!", 7829367],
+		["stff/yellow_bird.png","You recieved Yellow Courier Bird x5!", 7829367],
+		["stff/yellow_bird.png","You recieved Yellow Courier Bird x10!", 7829367],
+		["stff/blue_bird.png","You recieved Blue Courier Bird x5!", 7829367],
+		["stff/blue_bird.png","You recieved Blue Courier Bird x10!", 7829367],
+		["stff/stamp.png","You recieved Dreamy Approval Stamp x5!", 7829367],
+		["stff/stamp.png","You recieved Dreamy Approval Stamp x30!", 7829367],
+		["stff/stamp.png","You recieved Dreamy Approval Stamp x50!", 7829367],
+		["stff/stamp.png","You recieved Dreamy Approval Stamp x100!", 7829367],
+		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x5!", 7829367],
+		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x30!", 7829367],
+		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x50!", 7829367],
+		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x100!", 7829367],
+		["stff/jelly.png","You recieved Dreamy Item Protection Magic Jelly x200!", 7829367],
+		["stff/mag_glass.png","You recieved Magnifying Glass of Fantasy x5!", 7829367],
+		["stff/mag_glass.png","You recieved Magnifying Glass of Fantasy x10!", 7829367],
+		["stff/unlimited_scroll.png","You recieved Scroll of Unlimited Learning!", 7829367],
+		["stff/enhance_kit.png","You recieved Portable Enhancement Kit!", 7829367],
+		["stff/craft_kit.png","You recieved Portable Crafting Kit!", 7829367],
+		["stff/repair_kit.png","You recieved Portable Repair Kit!", 7829367],
 		["stff/hsc_box.png","You recieved Hair Dye Box!", 5804481],
 		["stff/hsc_box.png","You recieved Skin Treatment Box!", 5804481],
 		["stff/hsc_box.png","You recieved Contact Lens Box!", 5804481],
-		["stff/star_ear.png","You recieved Lucky Star Earrings (HP)!", 0],
-		["stff/star_ear.png","You recieved Lucky Star Earrings (MP)!", 0],
+		["stff/star_ear.png","You recieved Lucky Star Earrings (HP)!", 7829367],
+		["stff/star_ear.png","You recieved Lucky Star Earrings (MP)!", 7829367],
 		["stff/tiger_medal.png","You recieved Adamant Tiger Medalion!", 6363561],
-		["stff/arch_wings.png","You recieved Dark Archangel Wings!", 0],
+		["stff/arch_wings.png","You recieved Dark Archangel Wings!", 7829367],
 		["stff/wfw.png","You recieved White Fairy Wings!", 4871440],
 		["stff/efw.png","You recieved Emerald Fairy Wings!", 4871440],
 		["stff/lfw.png","You recieved Lavender Fairy Wings!", 4871440],
 		["stff/wgfw.png","You recieved Pure White Giant Feather Wings!",13400111],
 		["stff/wgfd.png","You recieved Pure White Giant Feather Decal!",13400111],
 		["stff/wgft.png","You recieved Pure White Giant Feather Tail!",13400111],
-		["stff/bandage_dec.png","You recieved Right Cheek Bandage Decal!", 0],
+		["stff/bandage_dec.png","You recieved Right Cheek Bandage Decal!", 7829367],
 		["stff/heart_dec.png","You recieved Heart Decal!", 4871440],
 		["stff/spade_dec.png","You recieved Spade Decal!", 4871440],
 		["stff/yellow_tail.png","You recieved Yellow Tail (Physical)!", 4871440],
@@ -94,9 +94,9 @@ var imgP = [
 		["stff/merc_pot_large.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x1!", 6363561],
 		["stff/merc_pot_large.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x3!", 6363561],
 		["stff/merc_pot_large.png","You recieved (Exploration) Mercenary Awakening Potion (Large) Pouch x5!", 6363561],
-		["stff/hybrid_tab.png","You recieved Costume Hybrid Tablet!", 0],
+		["stff/hybrid_tab.png","You recieved Costume Hybrid Tablet!", 7829367],
 		["stff/synth_wep.png","You recieved Epic Synthesis Weapon Coupon!", 6363561],
-		["stff/warranty.png","You recieved Warranty!", 0],
+		["stff/warranty.png","You recieved Warranty!", 7829367],
 		["stff/ally_juice.png","You recieved Ally EXP Juice x20!", 4871440],
 		["stff/ally_juice.png","You recieved Ally EXP Juice x50!", 4871440],
 		["stff/ally_juice.png","You recieved Ally EXP Juice x100!", 4871440]
@@ -119,7 +119,7 @@ function egg(){
   console.log(imgCount);
   var r = Math.floor(Math.random() * imgP.length);
   document.getElementById('myImage').src = imgP[r][0];
-  if(imgCount == 40){
+  if(imgCount == 38){
     console.log("wo");
     clearInterval(rInt);
     console.log("wow");
@@ -129,8 +129,10 @@ function egg(){
       console.log("wowzers");
     while(true){
       rr = Math.floor(Math.random() * imgP.length);
-	    if(imgP[rr][2] == 0 || imgP[rr][2] == 4871440){
+	    if(imgP[rr][2] == 7829367 || imgP[rr][2] == 4871440){
     document.getElementById('res').innerHTML = imgP[rr][1];
+        console.log(imgP[rr][2].toString(16));
+    document.getElementById('res').style.backgroundColor = "#"+imgP[rr][2].toString(16);
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
         break;
@@ -140,6 +142,7 @@ function egg(){
       rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 5804481){
     document.getElementById('res').innerHTML = imgP[rr][1];
+        document.getElementById('res').style.backgroundColor = "#"+imgP[rr][2].toString(16);
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
         break;
@@ -149,6 +152,7 @@ function egg(){
       rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 13400111){
     document.getElementById('res').innerHTML = imgP[rr][1];
+        document.getElementById('res').style.backgroundColor = "#"+imgP[rr][2].toString(16);
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
         break;
@@ -158,6 +162,7 @@ function egg(){
       rr = Math.floor(Math.random() * imgP.length);
 	    if(imgP[rr][2] == 6363561){
     document.getElementById('res').innerHTML = imgP[rr][1];
+        document.getElementById('res').style.backgroundColor = "#"+imgP[rr][2].toString(16);
     document.getElementById('myImage').src = imgP[rr][0];
 		    console.log("helps");
         break;
@@ -166,9 +171,9 @@ function egg(){
     imgCount = 0;
     checkC = 0;
   }
-  if(imgCount==39){
+  if(imgCount==37){
     clearInterval(rInt);
-    rInt = setInterval(egg, 1500);
+    rInt = setInterval(egg, 500);
   }
 }
 function eggify(){
