@@ -121,11 +121,39 @@ function egg(){
   document.getElementById('myImage').src = imgP[r][0];
   if(imgCount >= 40){
     clearInterval(rInt);
+    var luck = Math.floor(Math.random() * 9998);
+    if(luck <= 6812){
+    while(true){
+	    if(imgP[rr][2] === 0 || imgP[rr][2] === 4871440){
     var rr = Math.floor(Math.random() * imgP.length);
     document.getElementById('res').innerHTML = imgP[rr][1];
-    console.log('hello');
     document.getElementById('myImage').src = imgP[rr][0];
-    console.log('bye');
+	break;
+    }}}
+    if(luck <= 8862){
+    while(true){
+	    if(imgP[rr][2] === 5804481){
+    var rr = Math.floor(Math.random() * imgP.length);
+    document.getElementById('res').innerHTML = imgP[rr][1];
+    document.getElementById('myImage').src = imgP[rr][0];
+		    break;
+    }}}
+    if(luck <= 9566){
+    while(true){
+	    if(imgP[rr][2] === 13400111){
+    var rr = Math.floor(Math.random() * imgP.length);
+    document.getElementById('res').innerHTML = imgP[rr][1];
+    document.getElementById('myImage').src = imgP[rr][0];
+		    break;
+    }}}
+    else{
+    while(true){
+	    if(imgP[rr][2] === 6363561){
+    var rr = Math.floor(Math.random() * imgP.length);
+    document.getElementById('res').innerHTML = imgP[rr][1];
+    document.getElementById('myImage').src = imgP[rr][0];
+	    break;
+    }}}
     imgCount = 0;
     checkC = 0;
   }
@@ -135,7 +163,6 @@ function egg(){
   }
 }
 function eggify(){
-  console.log("Hi");
   if(checkC===0){
   totalS += 1500
   totalE += 1
@@ -143,7 +170,6 @@ function eggify(){
   document.getElementById('tEgg').innerHTML = "Total Eggs: " + totalE.toString();
   checkC=1;
   loadS();
-  console.log("start");
   rInt = setInterval(egg, 80);
   }
   }
