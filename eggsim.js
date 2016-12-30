@@ -169,7 +169,7 @@ function eggify(){
   document.getElementById('totals').innerHTML = "Total EC Spent: " + totalS.toString()+ " EC";
   document.getElementById('tEgg').innerHTML = "Total Eggs: " + totalE.toString();
   checkC=1;
-  loadS();
+  
   rInt = setInterval(egg, 80);
   }
   }
