@@ -126,7 +126,6 @@ function egg(){
     if(luck <= 6812){
     while(true){
 	    if(imgP[rr][2] == 0 || imgP[rr][2] == 4871440){
-    var rr = Math.floor(Math.random() * imgP.length);
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 	break;
@@ -134,7 +133,6 @@ function egg(){
     if(luck <= 8862){
     while(true){
 	    if(imgP[rr][2] == 5804481){
-    var rr = Math.floor(Math.random() * imgP.length);
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    break;
@@ -142,7 +140,6 @@ function egg(){
     if(luck <= 9566){
     while(true){
 	    if(imgP[rr][2] == 13400111){
-    var rr = Math.floor(Math.random() * imgP.length);
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 		    break;
@@ -150,7 +147,6 @@ function egg(){
     else{
     while(true){
 	    if(imgP[rr][2] == 6363561){
-    
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
 	    break;
