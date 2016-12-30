@@ -124,7 +124,7 @@ function egg(){
     clearInterval(rInt);
     console.log("wow");
     var luck = Math.floor(Math.random() * 9998);
-    var rr = 0
+    var rr = 0;
     if(luck <= 6812){
       console.log("wowzers");
     while(true){
@@ -173,8 +173,8 @@ function egg(){
 }
 function eggify(){
   if(checkC===0){
-  totalS += 1500
-  totalE += 1
+  totalS += 1500;
+  totalE += 1;
   document.getElementById('totals').innerHTML = "Total EC Spent: " + totalS.toString()+ " EC";
   document.getElementById('tEgg').innerHTML = "Total Eggs: " + totalE.toString();
   checkC=1;
