@@ -123,11 +123,13 @@ function egg(){
     clearInterval(rInt);
     var luck = Math.floor(Math.random() * 9998);
     var rr = Math.floor(Math.random() * imgP.length);
+	 console.log("wow");
     if(luck <= 6812){
     while(true){
 	    if(imgP[rr][2] == 0 || imgP[rr][2] == 4871440){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
+		    console.log("helps");
 	break;
     }}}
     if(luck <= 8862){
@@ -135,6 +137,7 @@ function egg(){
 	    if(imgP[rr][2] == 5804481){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
+		    console.log("helps");
 		    break;
     }}}
     if(luck <= 9566){
@@ -142,15 +145,19 @@ function egg(){
 	    if(imgP[rr][2] == 13400111){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
+		    console.log("helps");
 		    break;
+		    
     }}}
     else{
     while(true){
 	    if(imgP[rr][2] == 6363561){
     document.getElementById('res').innerHTML = imgP[rr][1];
     document.getElementById('myImage').src = imgP[rr][0];
+		    console.log("helps");
 	    break;
     }}}
+	  console.log("ended");
     imgCount = 0;
     checkC = 0;
   }
@@ -166,7 +173,6 @@ function eggify(){
   document.getElementById('totals').innerHTML = "Total EC Spent: " + totalS.toString()+ " EC";
   document.getElementById('tEgg').innerHTML = "Total Eggs: " + totalE.toString();
   checkC=1;
-  
   rInt = setInterval(egg, 80);
   }
   }
